@@ -59,3 +59,7 @@ This stub is intentionally simple. It does **not** include:
 ## Production version
 
 For scheduled runs, delta/change-tracking, and reliability guarantees, see the production actor: https://apify.com/stefano_seggio/actor-21-patent-ip-enforcement-monitor
+
+## License
+
+MIT — see [LICENSE](LICENSE).
