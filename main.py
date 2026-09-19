@@ -14,7 +14,7 @@ hosted actor.
 
 Setup:
     1. Get a free USPTO Open Data Portal API key (requires a USPTO.gov
-       account with MFA enabled): https://data.uspto.gov/myodp
+       account with MFA enabled): https://data.uspto.gov/apikey
     2. Set it as an environment variable:
          macOS/Linux:  export USPTO_ODP_API_KEY=your_key_here
          Windows cmd:  set USPTO_ODP_API_KEY=your_key_here
@@ -77,7 +77,7 @@ def main() -> None:
     api_key = os.environ.get("USPTO_ODP_API_KEY")
     if not api_key:
         print("ERROR: set the USPTO_ODP_API_KEY environment variable to your free USPTO ODP API key.")
-        print("Get one at https://data.uspto.gov/myodp (USPTO.gov account with MFA required).")
+        print("Get one at https://data.uspto.gov/apikey (USPTO.gov account with MFA required).")
         sys.exit(1)
 
     body = build_request_body(MAX_RECORDS)

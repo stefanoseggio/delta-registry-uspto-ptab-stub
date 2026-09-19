@@ -4,7 +4,7 @@ This is a small, free, open-source Python script that does one thing: it makes a
 
 ## Setup & run
 
-1. Get a free USPTO Open Data Portal API key. This requires a USPTO.gov account with multi-factor authentication enabled: https://data.uspto.gov/myodp
+1. Get a free USPTO Open Data Portal API key. This requires a USPTO.gov account with multi-factor authentication enabled, plus a linked, identity-verified ID.me account: https://data.uspto.gov/apikey
 2. Set the key as an environment variable:
    ```bash
    # macOS/Linux
